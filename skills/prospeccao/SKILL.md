@@ -51,17 +51,25 @@ acha e escreve; quem manda é o usuário.
    `GOOGLE_MAPS_API_KEY`, a API oficial do Google Places (Text Search) para
    negócios locais. Abra o site de cada empresa para conferir.
 3. **Lista** em `prospeccao/b2b-AAAA-MM-DD.csv`, colunas:
-   `empresa,site,cidade,instagram,contato_publico,fonte,sinal,nota,mensagem`.
-   20 a 40 empresas por rodada é o bastante.
+   `empresa,site,cidade,instagram,contato_publico,fonte,sinal,nota,status,data_contato,mensagem`.
+   20 a 40 empresas por rodada é o bastante. Se não conseguir abrir o site
+   para confirmar o contato, escreva `conferir no site`: nunca deduza um
+   e-mail ou telefone. `status`: a contatar, contatado, respondeu, sem
+   interesse, cliente.
 4. **Nota de encaixe (0 a 10):** perfil ideal (0-4), sinal de necessidade
    (0-3), facilidade de contato (0-3). Ordene da maior para a menor.
-5. **Mensagem** para as 10 de nota mais alta: 3 a 5 linhas, cita algo
+5. **Venda ou parceria?** Diga qual é o objetivo de cada lista: **vender**
+   para a empresa, ou **parceria** com quem vende para o mesmo público (ex.:
+   uma floricultura para quem faz cartões). Na parceria, não prometa
+   comissão, desconto ou exclusividade que não estejam em
+   `product-marketing.md`: proponha uma conversa.
+6. **Mensagem** para as 10 de nota mais alta: 3 a 5 linhas, cita algo
    específico da empresa (um post, um serviço, a abertura recente), uma
    proposta concreta e uma pergunta fácil de responder. Escreva com
    `copywriting`; para DM, use `ig-dm`.
-6. **Follow-up:** 2 mensagens, depois de 3 e de 7 dias, curtas e diferentes
+7. **Follow-up:** 2 mensagens, depois de 3 e de 7 dias, curtas e diferentes
    da primeira. Depois disso, pare.
-7. **Entrega:** a tabela das 10 melhores (empresa, por que encaixa, link,
+8. **Entrega:** a tabela das 10 melhores (empresa, por que encaixa, link,
    mensagem pronta para copiar) e o caminho do CSV.
 
 ## Modo B2C (clientes finais)
@@ -70,8 +78,16 @@ pede o que você vende.
 
 1. **Quem compra e quando.** Com o usuário: quem é o cliente, em que momento
    ele procura (datas, problemas, eventos) e as palavras que ele usa.
-2. **Onde ele está.** Use a busca na web e, se houver, o vidIQ ou o Apify
-   para achar:
+2. **Onde ele está.** A busca comum na web quase sempre devolve blogs e
+   lojas, não pessoas pedindo ajuda. Use, nesta ordem:
+   - **busca de virais do vidIQ** (ou do Apify): posts do ramo dos últimos 30
+     dias com formato de pergunta ou de lista ("qual presente ele
+     escolheria?", "ideias de…"); os comentários deles são onde o público
+     pede indicação;
+   - **busca na web** com as palavras exatas do cliente entre aspas ("alguém
+     indica", "onde encontro", "me ajudem"), mais o nome de fóruns e redes;
+   - fóruns e comunidades que a pessoa já frequenta e indicar.
+   Procure:
    - **pedidos públicos de indicação** ("alguém indica…", "onde comprar…",
      "preciso de…") em Reddit, fóruns, grupos abertos, comentários de posts
      do ramo, perguntas no X e no TikTok;
@@ -89,7 +105,11 @@ pede o que você vende.
    respondem as perguntas mais repetidas (para `ig-reel`, `pinterest` ou o
    blog), e 3 parcerias com perfis do ramo (para `ig-dm`).
 6. **Entrega:** os 10 achados mais quentes com link e resposta pronta, e as
-   sugestões de conteúdo e parceria.
+   sugestões de conteúdo e parceria. Se não achar pedidos recentes, diga
+   isso, e entregue os posts quentes do ramo para comentar e os conteúdos.
+7. **Acompanhamento:** na rodada seguinte, pergunte quais respostas tiveram
+   curtida, resposta ou visita ao perfil, e repita os formatos que
+   funcionaram.
 
 ## Quando há ferramentas a mais
 - `people-search` (Lessie, instalado à parte): para B2B, achar o responsável
