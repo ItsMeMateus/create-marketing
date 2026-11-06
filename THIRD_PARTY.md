@@ -18,5 +18,14 @@ Não incluídas (instale à parte, se quiser; comandos no README):
 - **ux-researcher-designer**: [oabdelmaksoud/agention](https://github.com/oabdelmaksoud/agention). Sem licença de redistribuição nos arquivos.
 
 Próprias deste plugin (MIT, ver `LICENSE`): `central-marketing`,
-`pinterest`, `pipeline-conteudo` e os scripts em
-`skills/central-marketing/scripts/`.
+`pinterest`, `pipeline-conteudo`, `reel-video`, os scripts em
+`skills/central-marketing/scripts/` e o projeto em
+`skills/reel-video/project/` (código e efeitos sonoros).
+
+Dependências baixadas na instalação do projeto de vídeo (`npm install`), não
+incluídas aqui:
+- **Remotion** ([remotion.dev](https://www.remotion.dev)): licença própria,
+  grátis para pessoas e empresas com até 3 funcionários; empresas maiores
+  precisam da licença de empresa (remotion.dev/license).
+- **qrcode-generator** (Kazuhiko Arase): MIT.
+- **React**: MIT.

@@ -1,0 +1,27 @@
+{
+  "composition": "Story",
+  "brand": "minha-marca",
+  "trend": "#27 POV + #29 Reação (link do post de referência)",
+  "contact": "Ana",
+  "statusTime": "21:14",
+  "hook": "POV: ela achou que era só mais uma mensagem",
+  "msgs": [
+    { "at": 0.9, "text": "Oi! Viu o que eu te mandei?", "time": "21:12" },
+    { "at": 2.3, "from": "me", "text": "Ainda não, o que é?", "time": "21:12" },
+    { "at": 3.5, "text": "Abre isso aqui 👇", "time": "21:13" }
+  ],
+  "qrUrl": "https://example.com",
+  "qrAt": 4.8,
+  "zoomAt": 6.3,
+  "cardAt": 7.2,
+  "cardVideo": "captura.mp4",
+  "reply": {
+    "at": 19.2,
+    "statusTime": "21:20",
+    "msgs": [
+      { "at": 0.8, "from": "me", "text": "NÃO ACREDITO 😭", "time": "21:20" },
+      { "at": 2.0, "from": "me", "text": "amei demais", "time": "21:20" }
+    ]
+  },
+  "duration": 26
+}

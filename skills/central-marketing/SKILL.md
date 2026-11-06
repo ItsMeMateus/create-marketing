@@ -114,6 +114,11 @@ alerta de travessão e clichê, e revise o texto com `copywriting`.
 Para gerar as imagens dos slides e memes com a marca, há o script
 `scripts/carousel.cjs` desta skill (ver "Imagens prontas" abaixo).
 
+### Vídeo
+| Pedido | Skill |
+|---|---|
+| Reel em MP4 sem gravar nada: conversa → QR Code → produto → reação | `reel-video` |
+
 ### Pinterest
 | Pedido | Skill |
 |---|---|
@@ -141,7 +146,7 @@ instalar o claude-seo (é de outro autor, licença MIT):
 |---|---|---|
 | Achar influenciadores, parceiros, contatos de empresas | `people-search` | `npx skills add LessieAI/lessie-skill -y -g` |
 | Enviar ou organizar e-mails e campanhas (só com o "sim" do usuário) | `lessie-email` | idem |
-| Vídeo feito com código (reels programados) | `remotion-*` | `npx skills add remotion-dev/skills` |
+| Ajuda avançada com Remotion (efeitos, legendas, mapas) | `remotion-*` | `npx skills add remotion-dev/skills` |
 | Personas, jornada, teste de usabilidade | `ux-researcher-designer` | `npx skills add oabdelmaksoud/agention --skill ux-researcher-designer` |
 
 Se o pedido precisar de uma delas e ela não estiver instalada, diga ao

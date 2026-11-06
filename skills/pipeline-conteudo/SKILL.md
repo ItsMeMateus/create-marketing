@@ -49,9 +49,9 @@ Para automatizar, o usuário pode criar uma tarefa agendada no Claude Code
 3. **Reel.** `ig-reel` com a fórmula escolhida: 3 ganchos pontuados com
    `hookscore.py` (use só o que passar de 70), roteiro e `beats.py` sem
    alertas. Gancho no formato "POV:", no topo da tela, até 2 linhas.
-   Se o projeto tiver um gerador de vídeo próprio, use-o; senão, entregue o
-   roteiro cena a cena para o usuário gravar (tela do produto, texto na tela,
-   música em alta pelo app).
+   Gere o MP4 com a skill `reel-video` (conversa → QR → produto → reação).
+   Se o produto não tiver página web para gravar, entregue o roteiro cena a
+   cena para o usuário gravar (texto na tela, música em alta pelo app).
 4. **Imagem.** Um gerador de imagem conectado (ex.: Canva) com o mascote da
    marca, ou o slide `meme` do `scripts/carousel.cjs` da central-marketing.
    Confira o texto da imagem.

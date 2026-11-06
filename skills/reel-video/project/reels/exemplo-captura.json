@@ -1,0 +1,10 @@
+{
+  "url": "https://example.com",
+  "seconds": 12,
+  "wait": 1500,
+  "hide": ["#cookie-banner"],
+  "steps": [
+    { "at": 1.5, "do": "tapText", "text": "Learn more" },
+    { "at": 4.0, "do": "scrollBy", "y": 400, "dur": 2.5 }
+  ]
+}
