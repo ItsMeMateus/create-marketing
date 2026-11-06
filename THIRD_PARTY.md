@@ -18,7 +18,7 @@ Não incluídas (instale à parte, se quiser; comandos no README):
 - **ux-researcher-designer**: [oabdelmaksoud/agention](https://github.com/oabdelmaksoud/agention). Sem licença de redistribuição nos arquivos.
 
 Próprias deste plugin (MIT, ver `LICENSE`): `central-marketing`,
-`pinterest`, `pipeline-conteudo`, `reel-video`, os scripts em
+`pinterest`, `pipeline-conteudo`, `reel-video`, `prospeccao`, os scripts em
 `skills/central-marketing/scripts/` e o projeto em
 `skills/reel-video/project/` (código e efeitos sonoros).
 

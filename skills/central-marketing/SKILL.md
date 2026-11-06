@@ -6,7 +6,8 @@ description: >-
   conteúdo (Instagram, TikTok, X, YouTube, análise de vídeo, plano de
   conteúdo), criação para Instagram (reels, legendas, carrosséis, stories,
   perfil, plano da semana, DMs, comentários), Pinterest (pins, pastas,
-  calendário), SEO e IA (com o plugin claude-seo), textos de venda, conversão
+  calendário), prospecção de clientes (B2B e clientes finais), SEO e IA (com
+  o plugin claude-seo), textos de venda, conversão
   de páginas, testes A/B, psicologia de compra e um conselho de marketing.
   Use quando o usuário pedir "central de marketing", "skill mãe", "qual skill
   usar", "me ajuda com marketing", "plano de marketing", ou quando o pedido de
@@ -140,6 +141,12 @@ instalar o claude-seo (é de outro autor, licença MIT):
 /plugin marketplace add AgriciDaniel/claude-seo
 /plugin install claude-seo
 ```
+
+### Achar clientes
+| Pedido | Skill |
+|---|---|
+| Lista de empresas do perfil ideal, nota de encaixe, primeira mensagem e follow-ups (B2B) | `prospeccao` (modo B2B) |
+| Onde está o meu público, quem está pedindo o que eu vendo agora (clientes finais) | `prospeccao` (modo B2C) |
 
 ### Instaladas à parte (use se estiverem disponíveis)
 | Pedido | Skill | Se não estiver instalada |

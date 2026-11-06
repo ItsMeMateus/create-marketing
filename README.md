@@ -1,6 +1,6 @@
 # Central de Marketing
 
-Um plugin para o [Claude Code](https://claude.com/claude-code) que junta 28
+Um plugin para o [Claude Code](https://claude.com/claude-code) que junta 29
 skills de marketing num lugar só. Você pede o que precisa em português ("gera
 o conteúdo da semana", "faz um reel do meu site", "melhora a bio do meu
 Instagram", "faz pins pro Pinterest") e a **central-marketing** escolhe a
@@ -15,7 +15,7 @@ No Claude Code, rode:
 /plugin install central-marketing@create-marketing
 ```
 
-Isso já traz as 28 skills da tabela da seção 4. Os complementos
+Isso já traz as 29 skills da tabela da seção 4. Os complementos
 opcionais estão na seção 5.
 
 ## 2. Treine a sua marca (primeiro uso)
@@ -66,6 +66,7 @@ Para gerar imagens (carrossel, meme, pins, leitura das cores) e vídeos:
 | Instagram | `ig-reel`, `ig-caption`, `ig-carousel`, `ig-story`, `ig-profile`, `ig-plan`, `ig-viral`, `ig-audit`, `ig-repurpose`, `ig-comment`, `ig-reply`, `ig-dm`, `ig-human` |
 | Vídeo | `reel-video`: reel em MP4 sem gravar nada (conversa → QR Code → seu site sendo tocado → reação → final com a marca) |
 | Pinterest | `pinterest` |
+| Achar clientes | `prospeccao`: empresas do seu perfil ideal com nota e mensagem pronta (B2B), e onde estão e o que pedem os clientes finais (B2C) |
 | Rotina de conteúdo | `pipeline-conteudo` |
 | Estratégia e conversão | `marketing-council`, `copywriting`, `cro`, `ab-testing`, `marketing-psychology` |
 
@@ -98,6 +99,7 @@ instalada e avisa quando um pedido precisa de alguma que falta.
 
 | Chave | Para quê |
 |---|---|
+| `GOOGLE_MAPS_API_KEY` | opcional: `prospeccao` buscar negócios locais pela API oficial do Google Places |
 | `APIFY_TOKEN` | `instagram-research`, `tiktok-research`, `x-research` (apify.com) |
 | `GEMINI_API_KEY` | `video-content-analyzer` (Google AI Studio) |
 | `TUBELAB_API_KEY` | `youtube-research` (tubelab.net) |
@@ -115,6 +117,9 @@ publica é você.
 - Só fatos: nada de métricas, depoimentos ou avaliações inventados.
 - Comentar, seguir e mandar DM é sempre com você, nunca automático.
 - Chaves e senhas nunca vão no chat.
+- Prospecção só com dados públicos: listas de empresas com contato comercial;
+  de clientes finais, só o link do post público, nunca dados pessoais. As
+  listas ficam em `prospeccao/`, fora do Git.
 
 ## 7. Créditos e licenças
 
