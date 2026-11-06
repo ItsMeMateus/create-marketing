@@ -11,10 +11,11 @@ ganchos em português e caminhos de arquivo relativos.
 | `instagram-research`, `tiktok-research`, `x-research`, `youtube-research`, `video-content-analyzer`, `content-planner` | Head of Content | bradautomates | MIT |
 | `marketing-council`, `copywriting`, `cro`, `ab-testing`, `marketing-psychology` | [marketingskills](https://github.com/coreyhaines31/marketingskills) | Corey Haines | MIT |
 
-Não incluídas (instale à parte, se quiser):
-- **claude-seo** (SEO e IA): `/plugin marketplace add AgriciDaniel/claude-seo`
-  ([AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo), MIT).
-  É um plugin próprio, com instalador.
+Não incluídas (instale à parte, se quiser; comandos no README):
+- **claude-seo** (SEO e IA): [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo), MIT. É um plugin próprio, com instalador.
+- **Lessie** (`people-search`, `lessie-email`): [LessieAI/lessie-skill](https://github.com/LessieAI/lessie-skill). Sem licença de redistribuição nos arquivos.
+- **Remotion** (`remotion-*`): [remotion-dev/skills](https://github.com/remotion-dev/skills). Sem licença de redistribuição nos arquivos.
+- **ux-researcher-designer**: [oabdelmaksoud/agention](https://github.com/oabdelmaksoud/agention). Sem licença de redistribuição nos arquivos.
 
 Próprias deste plugin (MIT, ver `LICENSE`): `central-marketing`,
 `pinterest`, `pipeline-conteudo` e os scripts em

@@ -15,13 +15,17 @@ No Claude Code, rode:
 /plugin install central-marketing@create-marketing
 ```
 
-Para as skills de SEO e de IA (auditoria do site, Search Console, aparecer
-no ChatGPT), instale também o claude-seo, de outro autor:
+### Instalar à parte (opcional)
 
-```
-/plugin marketplace add AgriciDaniel/claude-seo
-/plugin install claude-seo
-```
+Estas skills são de outros autores e não podem vir embutidas no plugin. A
+central-marketing reconhece cada uma quando ela está instalada:
+
+| Para quê | Skills | Como instalar |
+|---|---|---|
+| SEO e IA: auditoria do site, Search Console, aparecer no ChatGPT | `seo`, `seo-*` (claude-seo) | `/plugin marketplace add AgriciDaniel/claude-seo` e depois `/plugin install claude-seo` |
+| Achar pessoas e contatos (influenciadores, parceiros) e e-mail | `people-search`, `lessie-email` (Lessie) | `npx skills add LessieAI/lessie-skill -y -g` e `npm install -g @lessie/cli`; precisa de conta no lessie.ai |
+| Vídeos programados (reels feitos com código) | `remotion-*` (Remotion) | `npx skills add remotion-dev/skills` |
+| Pesquisa com usuários, personas e jornada | `ux-researcher-designer` | `npx skills add oabdelmaksoud/agention --skill ux-researcher-designer` |
 
 ## Primeiro uso: treine a sua marca
 

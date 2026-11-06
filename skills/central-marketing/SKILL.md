@@ -136,6 +136,17 @@ instalar o claude-seo (é de outro autor, licença MIT):
 /plugin install claude-seo
 ```
 
+### Instaladas à parte (use se estiverem disponíveis)
+| Pedido | Skill | Se não estiver instalada |
+|---|---|---|
+| Achar influenciadores, parceiros, contatos de empresas | `people-search` | `npx skills add LessieAI/lessie-skill -y -g` |
+| Enviar ou organizar e-mails e campanhas (só com o "sim" do usuário) | `lessie-email` | idem |
+| Vídeo feito com código (reels programados) | `remotion-*` | `npx skills add remotion-dev/skills` |
+| Personas, jornada, teste de usabilidade | `ux-researcher-designer` | `npx skills add oabdelmaksoud/agention --skill ux-researcher-designer` |
+
+Se o pedido precisar de uma delas e ela não estiver instalada, diga ao
+usuário qual é e o comando; não finja o resultado.
+
 ### Estratégia, textos e conversão
 | Pedido | Skill |
 |---|---|
