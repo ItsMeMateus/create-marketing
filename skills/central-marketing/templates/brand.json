@@ -1,0 +1,15 @@
+{
+  "_comment": "Copie para .agents/brand.json no seu projeto. Caminhos relativos à raiz do projeto. Uma entrada por marca; o id é o que vai no campo \"brand\" dos specs.",
+  "brands": {
+    "minha-marca": {
+      "name": "Minha Marca",
+      "site": "minhamarca.com",
+      "color": "#f0426e",
+      "background": "#fffafb",
+      "logo": "static/img/logo.png",
+      "mascot": "",
+      "lang": "pt",
+      "cta": "Conheça grátis"
+    }
+  }
+}

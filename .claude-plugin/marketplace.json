@@ -1,0 +1,16 @@
+{
+  "name": "create-marketing",
+  "description": "Central de Marketing: plugin com 27 skills de marketing para Claude Code (trends, Instagram, Pinterest, rotina de conteúdo, textos, conversão e estratégia).",
+  "owner": {
+    "name": "ItsMeMateus",
+    "url": "https://github.com/ItsMeMateus"
+  },
+  "plugins": [
+    {
+      "name": "central-marketing",
+      "source": "./",
+      "description": "Skill mãe de marketing com 27 skills: trends, Instagram, Pinterest, rotina de conteúdo, textos, conversão e estratégia.",
+      "version": "1.0.0"
+    }
+  ]
+}

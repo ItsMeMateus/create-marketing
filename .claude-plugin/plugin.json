@@ -1,0 +1,21 @@
+{
+  "name": "central-marketing",
+  "version": "1.0.0",
+  "description": "Skill mãe de marketing: pesquisa de trends, Instagram (reels, legendas, carrosséis, stories, perfil, plano da semana), Pinterest, rotina de conteúdo, textos de venda, conversão, testes A/B e conselho de marketing, com as regras da sua marca.",
+  "author": {
+    "name": "ItsMeMateus",
+    "url": "https://github.com/ItsMeMateus"
+  },
+  "repository": "https://github.com/ItsMeMateus/create-marketing",
+  "license": "MIT",
+  "keywords": [
+    "marketing",
+    "instagram",
+    "tiktok",
+    "pinterest",
+    "reels",
+    "copywriting",
+    "cro",
+    "conteudo"
+  ]
+}
