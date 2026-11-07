@@ -6,7 +6,7 @@ description: >-
   conteúdo (Instagram, TikTok, X, YouTube, análise de vídeo, plano de
   conteúdo), criação para Instagram (reels, legendas, carrosséis, stories,
   perfil, plano da semana, DMs, comentários), Pinterest (pins, pastas,
-  calendário), prospecção de clientes (B2B e clientes finais), SEO e IA (com
+  calendário), engenharia reversa de concorrentes, prospecção de clientes (B2B e clientes finais), SEO e IA (com
   o plugin claude-seo), textos de venda, conversão
   de páginas, testes A/B, psicologia de compra e um conselho de marketing.
   Use quando o usuário pedir "central de marketing", "skill mãe", "qual skill
@@ -142,6 +142,11 @@ instalar o claude-seo (é de outro autor, licença MIT):
 /plugin install claude-seo
 ```
 
+### Concorrentes
+| Pedido | Skill |
+|---|---|
+| Engenharia reversa de concorrente: o que funciona no Instagram deles, produto, novidade, "eles têm / nós temos / o que fazer" | `engenharia-reversa` |
+
 ### Achar clientes
 | Pedido | Skill |
 |---|---|
@@ -188,6 +193,8 @@ caminho completo do script.
   `ig-story` para cada dia → `ig-caption`.
 - **Artigo novo do blog:** `ig-repurpose` para virar reels e carrosséis, e
   `pinterest` para virar 2 ou 3 pins.
+- **Novidade de concorrente:** `engenharia-reversa` → o usuário aprova o
+  que fazer → mudança no site e/ou plano de conteúdo.
 - **Decisão difícil** (preço, promoção, posicionamento): `marketing-council`
   → executar com a skill específica.
 

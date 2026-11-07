@@ -1,6 +1,6 @@
 # Central de Marketing
 
-Um plugin para o [Claude Code](https://claude.com/claude-code) que junta 29
+Um plugin para o [Claude Code](https://claude.com/claude-code) que junta 30
 skills de marketing num lugar só. Você pede o que precisa em português ("gera
 o conteúdo da semana", "faz um reel do meu site", "melhora a bio do meu
 Instagram", "faz pins pro Pinterest") e a **central-marketing** escolhe a
@@ -15,7 +15,7 @@ No Claude Code, rode:
 /plugin install central-marketing@create-marketing
 ```
 
-Isso já traz as 29 skills da tabela da seção 4. Os complementos
+Isso já traz as 30 skills da tabela da seção 4. Os complementos
 opcionais estão na seção 5.
 
 ## 2. Treine a sua marca (primeiro uso)
@@ -66,6 +66,7 @@ Para gerar imagens (carrossel, meme, pins, leitura das cores) e vídeos:
 | Instagram | `ig-reel`, `ig-caption`, `ig-carousel`, `ig-story`, `ig-profile`, `ig-plan`, `ig-viral`, `ig-audit`, `ig-repurpose`, `ig-comment`, `ig-reply`, `ig-dm`, `ig-human` |
 | Vídeo | `reel-video`: reel em MP4 sem gravar nada (conversa → QR Code → seu site sendo tocado → reação → final com a marca) |
 | Pinterest | `pinterest` |
+| Concorrentes | `engenharia-reversa`: o que funciona para os concorrentes no Instagram e no site, comparado com o seu produto, com o que fazer |
 | Achar clientes | `prospeccao`: empresas do seu perfil ideal com nota e mensagem pronta (B2B), e onde estão e o que pedem os clientes finais (B2C) |
 | Rotina de conteúdo | `pipeline-conteudo` |
 | Estratégia e conversão | `marketing-council`, `copywriting`, `cro`, `ab-testing`, `marketing-psychology` |
